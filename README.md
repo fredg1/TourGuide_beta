@@ -2,11 +2,11 @@
 
 A place where you can help beta-test (or get early access to) unofficially released changes.
 
-Simply checkout the appropriate branch in mafia's GCLI (master will only ever contain this README):
+Simply checkout the [appropriate branch](https://github.com/fredg1/TourGuide_beta/branches) in mafia's GCLI (master will only ever contain this README):
 
 `svn checkout https://github.com/fredg1/TourGuide_beta/branches/ <branch_name> /`
 
-Add comments, problems and questions under **Issues** (top left).
+Add comments, problems, recommendations and questions under [Issues](https://github.com/fredg1/TourGuide_beta/issues).
 
 
 #### Additional info
