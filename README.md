@@ -13,3 +13,6 @@ Add comments, problems, recommendations and questions under [Issues](https://git
 Don't delete your original copy of TourGuide! Especially the file `relay_TourGuide.js`: I'm assuming you already have it since you most likely also have TourGuide, so I didn't duplicate it.
 
 Be sure to clean your svn and relay folders when you're done testing/using a copy; they won't go by themselves...
+
+
+Also, sadly, this obviously won't include any change you made to your own copy of Guide/TourGuide...
