@@ -29,3 +29,5 @@ Also, sadly, this obviously won't include any change you made to your own copy o
 [main-clutter](https://github.com/cdrock/TourGuide/pull/13): Various changes that didn't deserve their own branch. Pirate_route_rework has most of the changes present in this branch. Only difference is stuff regarding Guzzlr, really.
 
 doctor-bag-quest: Now reminds you to do bag quests if your bag isn't maxed out, and reminder to finish in-progress quests. No testing done yet.
+
+sea-quest-tweaks: Changed the conditionals so that you won't simply get "Unless you discovered the currents already, in which case go to the corral." as often anymore. Also some comments were locked behind bad logic. Need to test if I didn't screw up anywhere.
