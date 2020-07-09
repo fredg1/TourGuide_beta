@@ -27,4 +27,6 @@ Also, sadly, this obviously won't include any change you made to your own copy o
 
 sea-quest-tweaks: Changed the conditionals so that you won't simply get "Unless you discovered the currents already, in which case go to the corral." as often anymore. Also some comments were locked behind bad logic. Need to test if I didn't screw up anywhere.
 
-glitch-gilcht-tighcl: Added GSRN to free fights
+glitch-gilcht-tighcl: Added GSRN to free fights.
+
+vote-monster: add a reminder of how many more times the vote monster is a free fight.
