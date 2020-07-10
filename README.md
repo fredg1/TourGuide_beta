@@ -21,7 +21,7 @@ Also, sadly, this obviously won't include any change you made to your own copy o
 
 [unaccompanied-miner](https://github.com/cdrock/TourGuide/pull/17): Addition of a tile to remind people to use their 5 free daily minings, if they have that.
 
-[Pirate_route_rework](https://github.com/cdrock/TourGuide/pull/16): Full change/update of the talisman o' namsilat-related "stuff". No testing done, so help is really appreciated on that one.
+[Pirate_route_rework](https://github.com/cdrock/TourGuide/pull/16): Full change/update/separation of the talisman o' namsilat and pirate-related "stuff". No testing done, so help is really appreciated on that one.
 
 [main-clutter](https://github.com/cdrock/TourGuide/pull/13): Various changes that didn't deserve their own branch. Pirate_route_rework has most of the changes present in this branch. Only difference is stuff regarding Guzzlr, really.
 
