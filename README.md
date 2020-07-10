@@ -19,14 +19,10 @@ Also, sadly, this obviously won't include any change you made to your own copy o
 
 ### Branches
 
-[unaccompanied-miner](https://github.com/cdrock/TourGuide/pull/17): Addition of a tile to remind people to use their 5 free daily minings, if they have that.
-
 [Pirate_route_rework](https://github.com/cdrock/TourGuide/pull/16): Full change/update/separation of the talisman o' namsilat and pirate-related "stuff". No testing done, so help is really appreciated on that one.
 
-[main-clutter](https://github.com/cdrock/TourGuide/pull/13): Various changes that didn't deserve their own branch. Pirate_route_rework has most of the changes present in this branch. Only difference is stuff regarding Guzzlr, really.
+[sea-quest-tweaks](https://github.com/cdrock/TourGuide/pull/22): Changed the conditionals so that you won't simply get "Unless you discovered the currents already, in which case go to the corral." as often anymore. Also some comments were locked behind bad logic. Need to test if I didn't screw up anywhere.
 
-sea-quest-tweaks: Changed the conditionals so that you won't simply get "Unless you discovered the currents already, in which case go to the corral." as often anymore. Also some comments were locked behind bad logic. Need to test if I didn't screw up anywhere.
+[glitch-gilcht-tighcl](https://github.com/cdrock/TourGuide/pull/26): Added GSRN to free fights.
 
-glitch-gilcht-tighcl: Added GSRN to free fights.
-
-vote-monster: add a reminder of how many more times the vote monster is a free fight.
+[vote-monster](https://github.com/cdrock/TourGuide/pull/25): add a reminder of how many more times the vote monster is a free fight.
