@@ -6,7 +6,8 @@ Simply checkout the [appropriate branch](https://github.com/fredg1/TourGuide_bet
 
 `svn checkout https://github.com/fredg1/TourGuide_beta/branches/ <branch_name> /`
 
-Add comments, problems, recommendations and questions under [Issues](https://github.com/fredg1/TourGuide_beta/issues).
+Add feedback (comments/problems/recommendations/questions) under [Issues](https://github.com/fredg1/TourGuide_beta/issues), or send a PM on Discord or KoL.
+Sending feedback is encouraged.
 
 
 #### Additional info
