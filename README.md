@@ -20,6 +20,6 @@ Also, sadly, this obviously won't include any change you made to your own copy o
 
 ### Branches
 
-[sea-quest-tweaks](https://github.com/cdrock/TourGuide/pull/22): Rework of some logic, reminder to buy old man's boot from big bro, full mom sea monkey support (minus the "we're not fully sure how it works..."), and a few improvements to the two mer-kin paths (scholar = internal logic only, gladiator = display of next opponent's informations). -- Skate park is next.
-
 [low_key_summer_bugfix](https://github.com/cdrock/TourGuide/pull/39): Fixes the bug in which key tiles were reappearing once used on the door in LKS.
+
+[shen](https://github.com/cdrock/TourGuide/pull/45): Pretty much a complete revamp of the quest. Now tell you where Shen will send you to in advance, and adds notifications in the respective quest tiles about that (like hole in the sky). Also, Copperhead Club informations (delay and behind the stache).
