@@ -20,8 +20,6 @@ Also, sadly, this obviously won't include any change you made to your own copy o
 
 ### Branches
 
-[shen](https://github.com/cdrock/TourGuide/pull/45): Pretty much a complete revamp of the quest. Now tell you where Shen will send you to in advance, and adds notifications in the respective quest tiles about that (like hole in the sky). Also, Copperhead Club informations (delay and behind the stache).
-
 [snapper](https://github.com/cdrock/TourGuide/pull/48):
 - Complete rework of the snapper tile. Now shows phylums based on your assumed needs, and shows the phylum tracked and in current location.  
 - Adds a warning if you're bringing the snapper and its phylum tracking is undoing a banish.  
