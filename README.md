@@ -20,8 +20,6 @@ Also, sadly, this obviously won't include any change you made to your own copy o
 
 ### Branches
 
-[low_key_summer_bugfix](https://github.com/cdrock/TourGuide/pull/39): Fixes the bug in which key tiles were reappearing once used on the door in LKS.
-
 [shen](https://github.com/cdrock/TourGuide/pull/45): Pretty much a complete revamp of the quest. Now tell you where Shen will send you to in advance, and adds notifications in the respective quest tiles about that (like hole in the sky). Also, Copperhead Club informations (delay and behind the stache).
 
 [snapper](https://github.com/cdrock/TourGuide/pull/48):
