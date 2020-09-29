@@ -20,11 +20,8 @@ Also, sadly, this obviously won't include any change you made to your own copy o
 
 ### Branches
 
-[snapper](https://github.com/cdrock/TourGuide/pull/48):
-- Complete rework of the snapper tile. Now shows phylums based on your assumed needs, and shows the phylum tracked and in current location.  
-- Adds a warning if you're bringing the snapper and its phylum tracking is undoing a banish.  
-- Rework of the appearance_rates_adjusted function (used in the location bar and to calculate the average turns a task will take, like bounties), which now relies more confidently on mafia's data.  
-- (Somewhat smaller) Rework of the location bar:  
-  Having copies of a monster, form olfaction or olfaction-likes, stops monsters from being shown as simply "banished" (btw, plz report more locations in which banishes are impossible).  
-  Also stops only displaying a "?" for meat and drop chance when underwater.  
-  Also also, fixes what caused the partial blurring of the left side of the base drop % of monsters' items in the location bar popup.
+minimize:
+  - adds the ability to reduce the size of any tile, removing the non-title text.
+  - Merged with [snapper](https://github.com/cdrock/TourGuide/pull/48), so you'll still be able to test that... RIIIIIGHT? <_<
+  - Also, since I had to go through the entirety of Guide to ID everything, also did a few additional things that, for my own sake, I will not list here.
+  
