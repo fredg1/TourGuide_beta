@@ -4,7 +4,7 @@ A place where you can help beta-test (or get early access to) unofficially relea
 
 Simply checkout the [appropriate branch](https://github.com/fredg1/TourGuide_beta/branches) in mafia's GCLI (master will only ever contain this README):
 
-`svn checkout https://github.com/fredg1/TourGuide_beta/branches/ <branch_name> /`
+`svn checkout https://github.com/fredg1/TourGuide_beta/branches/ <branch_name>`
 
 Add feedback (comments/problems/recommendations/questions) under [Issues](https://github.com/fredg1/TourGuide_beta/issues), or send a PM on Discord or KoL.
 Sending feedback is encouraged.
