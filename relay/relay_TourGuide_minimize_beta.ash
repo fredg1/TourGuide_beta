@@ -9385,8 +9385,6 @@ buffer ChecklistGenerateEntryHTML(ChecklistEntry entry, ChecklistSubentry [int] 
         entry_id = entry.tags.combination;
     else if (entry.tags.id != "")
         entry_id = entry.tags.id;
-    else
-        entry_id = entry.subentries[0].header;
     entry_id = create_matcher("[ \\-.]", entry_id).replace_all("_");
     entry_id = entity_encode(entry_id);
     
@@ -9419,6 +9417,11 @@ buffer ChecklistGenerateEntryHTML(ChecklistEntry entry, ChecklistSubentry [int] 
                     break;
                 }
             }
+
+            if (entry_id == "")
+                entry_has_content_to_minimize = false;
+            if ((entry.tags.id == "Red nosed snapper familiar tracking drops resource" && __misc_state["in run"]) || (entry.tags.id == "Free crafts resource" && subentry.header.contains_text("smithing")))
+                entry_has_content_to_minimize = false;
 
             if (entry_has_content_to_minimize) {
                 first_subheader.append(HTMLGenerateTagWrap("button", "&#9660;", string [string] {"class":"r_cl_minimize_button toggle_" + entry_id,"alt":"Minimize","title":"Minimize","id":"toggle_" + entry_id,"onclick":"alterSubentryMinimization(event)"}));
@@ -25821,6 +25824,7 @@ void SSkillsGenerateResource(ChecklistEntry [int] resource_entries)
             string [int] description;
             if (jackhammer_crafts_later > 0)
                 description.listAppend("Get " + jackhammer_crafts_later + " more by folding your loathing legion knife into jackhammer.");
+            description.listAppend("PLEASE, report if this looks right.".HTMLGenerateSpanFont("red").HTMLGenerateSpanOfClass("r_bold"));
             string title = "free smithing";
             if (knoll_available()) //innabox makes normal smithing free
                 title = "free advanced smithing";
@@ -49196,6 +49200,7 @@ void IOTMRedNosedSnapperResource(ChecklistEntry [int] resource_entries)
 
         description.listAppend(line);
     }
+    description.listAppend("PLEASE, report examples of how crowded/big this tile is in ascension.".HTMLGenerateSpanFont("red").HTMLGenerateSpanOfClass("r_bold"));
 
     resource_entries.listAppend(ChecklistEntryMake("__familiar red-nosed snapper", "familiar.php?action=guideme&pwd=" + my_hash(), ChecklistSubentryMake(title, "+1 item / 11 kills of tracked phylum", description)).ChecklistEntrySetIDTag("Red nosed snapper familiar tracking drops resource"));
 }
