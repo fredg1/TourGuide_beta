@@ -20,7 +20,7 @@ Also, sadly, this obviously won't include any change you made to your own copy o
 
 ### Branches
 
-minimize:
+minimize
   - adds the ability to reduce the size of any tile, removing the non-title text.
   - Merged with [snapper](https://github.com/cdrock/TourGuide/pull/48), so you'll still be able to test that... RIIIIIGHT? <_<
   - Also, since I had to go through the entirety of Guide to ID everything, also did a few additional things that, for my own sake, I will not list here.
